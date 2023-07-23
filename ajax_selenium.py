@@ -36,7 +36,6 @@ def scrape(path, file_name, save_choice):
         for film in films:
             d={}
             try:
-                d["Year"]=year.text
                 d["Title"]=film.find_element(By.CLASS_NAME, "film-title").text
                 d["Nominations"]=film.find_element(By.CLASS_NAME, "film-nominations").text
                 d["Awards"]=film.find_element(By.CLASS_NAME, "film-awards").text
