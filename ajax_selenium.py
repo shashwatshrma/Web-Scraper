@@ -31,7 +31,7 @@ def scrape(path, file_name, save_choice):
         # time delay in order to not overload the website
         # as well to wait for the data to load
         # randomness introduced in order to not be detected as a fixed interval may raise suspicion 
-        time.sleep(random.randint(5,8)) 
+        time.sleep(random.randint(7,9)) 
         films=driver.find_elements(By.CLASS_NAME, "film")
         for film in films:
             d={}
