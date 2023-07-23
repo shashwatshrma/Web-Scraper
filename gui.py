@@ -236,7 +236,7 @@ file_name_text_3=ctk.CTkLabel(tabview.tab("AJAX Scraper (Selenium)"), text="Name
 
 pick_loc_button_3=ctk.CTkButton(tabview.tab("AJAX Scraper (Selenium)"), text="Pick directory", command=lambda: pick_loc(path_3), width=100)
 ajax_run_button=ctk.CTkButton(tabview.tab("AJAX Scraper (Selenium)"), 
-                              text="Get book data", 
+                              text="Get film data", 
                               command=lambda: scrape_ajax_1(path_3.get(), file_name_3.get(), radio_var_3.get()))
 
 ajax_reset_button=ctk.CTkButton(tabview.tab("AJAX Scraper (Selenium)"), text="Reset", command=ajax_reset_1)
@@ -265,7 +265,7 @@ file_name_entry_4=ctk.CTkEntry(tabview.tab("AJAX Scraper (Requests)"), textvaria
 file_name_text_4=ctk.CTkLabel(tabview.tab("AJAX Scraper (Requests)"), text="Name of the file:")
 
 pick_loc_button_4=ctk.CTkButton(tabview.tab("AJAX Scraper (Requests)"), text="Pick directory", command=lambda: pick_loc(path_4), width=100)
-ajax_run_button_2=ctk.CTkButton(tabview.tab("AJAX Scraper (Requests)"), text="Get book data", command=lambda: scrape_ajax_2(path_4.get(), file_name_4.get(), radio_var_4.get()))
+ajax_run_button_2=ctk.CTkButton(tabview.tab("AJAX Scraper (Requests)"), text="Get film data", command=lambda: scrape_ajax_2(path_4.get(), file_name_4.get(), radio_var_4.get()))
 ajax_reset_button_2=ctk.CTkButton(tabview.tab("AJAX Scraper (Requests)"), text="Reset", command=ajax_reset_2)
 
 radio_var_4=tk.IntVar(tabview.tab("AJAX Scraper (Requests)"), 2)
