@@ -231,7 +231,7 @@ location_entry_3=ctk.CTkEntry(tabview.tab("AJAX Scraper (Selenium)"), textvariab
 location_text_3=ctk.CTkLabel(tabview.tab("AJAX Scraper (Selenium)"), text="Directory to save the dataset into:")
 
 file_name_3=tk.StringVar(tabview.tab("AJAX Scraper (Selenium)"))
-file_name_entry_3=ctk.CTkEntry(tabview.tab("AJAX Scraper (Selenium)"), textvariable=file_name, width=150)
+file_name_entry_3=ctk.CTkEntry(tabview.tab("AJAX Scraper (Selenium)"), textvariable=file_name_3, width=150)
 file_name_text_3=ctk.CTkLabel(tabview.tab("AJAX Scraper (Selenium)"), text="Name of the file:")
 
 pick_loc_button_3=ctk.CTkButton(tabview.tab("AJAX Scraper (Selenium)"), text="Pick directory", command=lambda: pick_loc(path_3), width=100)
@@ -261,7 +261,7 @@ location_entry_4=ctk.CTkEntry(tabview.tab("AJAX Scraper (Requests)"), textvariab
 location_text_4=ctk.CTkLabel(tabview.tab("AJAX Scraper (Requests)"), text="Directory to save the dataset into:")
 
 file_name_4=tk.StringVar(tabview.tab("AJAX Scraper (Requests)"))
-file_name_entry_4=ctk.CTkEntry(tabview.tab("AJAX Scraper (Requests)"), textvariable=file_name, width=150)
+file_name_entry_4=ctk.CTkEntry(tabview.tab("AJAX Scraper (Requests)"), textvariable=file_name_4, width=150)
 file_name_text_4=ctk.CTkLabel(tabview.tab("AJAX Scraper (Requests)"), text="Name of the file:")
 
 pick_loc_button_4=ctk.CTkButton(tabview.tab("AJAX Scraper (Requests)"), text="Pick directory", command=lambda: pick_loc(path_4), width=100)
